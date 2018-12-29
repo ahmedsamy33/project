@@ -1,0 +1,77 @@
+<ion-menu dir="rtl" id="menuId" [content]=" content" side="right">
+
+  <ion-content class="menuContent">
+
+    <ion-toolbar class="headermenu" style=" text-align: center;">
+      <img src="./../assets/imgs/logo.1.png">
+
+      <br>
+      <h5>حكيم دار </h5>
+
+    </ion-toolbar>
+
+    <ion-list>
+
+      <!--   Admin -->
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="ios-mail"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        payment
+      </ion-item>
+
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="ios-people"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Request
+      </ion-item>
+
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="ios-heart-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Favourit
+      </ion-item>
+
+
+
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="ios-apps"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Language
+      </ion-item>
+
+
+
+
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="ios-add-circle-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        Terms & conditions
+      </ion-item>
+
+
+
+
+
+
+
+      <ion-item class="text-sm">
+        <ion-icon name="log-out"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;تسجيل
+        الخروج
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+
+
+</ion-menu>
+
+
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+
+    <ion-title class="text-center">الصفحة الرئيسية</ion-title>
+
+
+    <button class="menuButton" end ion-button clear menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content>
+
+  <!-- [ngClass]="language === 'en' ?'iconEn':'iconAr'" -->
+
+  <div (click)="openSubService()" class="service-item animated fadeInDown">
+
+    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">
+
+    <h4>Service 1 test</h4>
+
+  </div>
+
+  <div (click)="openSubService()" class="service-item animated fadeInDown">
+
+    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">
+
+    <h4>Service 1 test</h4>
+
+  </div>
+
+
+
+</ion-content>

@@ -1,0 +1,73 @@
+<ion-content padding class="login-form" style=" background: url('./../assets/imgs/mainbg.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+"
+  overflow-scroll="false">
+
+  <!-- <div class="overlay"></div> -->
+  <div class="logo animated fadeInDown">
+    <img src="./../assets/imgs/logo.1.png">
+  </div>
+  <form>
+    <ion-list>
+      <!-- mobNo. field -->
+      <ion-item style="    margin-bottom: 11px;
+            " class="item1 animated fadeInDown">
+        <ion-label floating>
+          <ion-icon name="ios-call"></ion-icon>
+          رقم التلفون
+        </ion-label>
+        <ion-input name="phone" type="text" required></ion-input>
+      </ion-item>
+      <!-- <p class="validationHint">هذا الحقل يجب ألا يقل عن 11 رقم</p> -->
+      <!-- password field -->
+      <ion-item class="item2 animated fadeInDown">
+        <ion-label floating>
+          <ion-icon name="ios-lock-outline"></ion-icon>
+          كلمة المرور
+        </ion-label>
+        <ion-input name="password" type="password" required></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <!-- form Btns -->
+
+    <button ion-button block type="button" class="animated fadeInDown app-btn" (click)="openPage('MainpagePage')">
+      تسجيل
+      الدخول</button>
+
+    <ion-item class="checkbox fadeInDown border-bottom">
+      <ion-row style="width: 100%">
+        <ion-col>
+          <input class="checkbox-custom myinput" type="checkbox">
+          <p class="remeber">تذكر لى </p>
+
+        </ion-col>
+        <ion-col>
+          <p class="remeber">
+            نسيت كلمة المرور ؟
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <ion-item class="fadeInDown">
+      <ion-row style="width: 100%">
+        <ion-col>
+          <p class="remeber"> ليس لديك حساب؟
+          </p>
+
+        </ion-col>
+        <ion-col>
+          <p class="remeber" (click)="openPage('SignupPage')">
+            انشىء حساب جديد ؟
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+  </form>
+
+
+</ion-content>
