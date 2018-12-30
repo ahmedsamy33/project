@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 269:
+/***/ 268:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainpagePageModule", function() { return MainpagePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mainpage__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mainpage__ = __webpack_require__(273);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var MainpagePageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -78,7 +78,7 @@ var MainpagePage = /** @class */ (function () {
     };
     MainpagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mainpage',template:/*ion-inline-start:"E:\ClinicProject.git\trunk\src\pages\mainpage\mainpage.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="text-center">الصفحة الرئيسية</ion-title>\n\n\n    <button class="menuButton" end ion-button clear menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <!-- [ngClass]="language === \'en\' ?\'iconEn\':\'iconAr\'" -->\n\n  <div (click)="openSubService()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">\n\n    <h4>Service 1 test</h4>\n\n  </div>\n\n  <div (click)="openSubService()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">\n\n    <h4>Service 1 test</h4>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"E:\ClinicProject.git\trunk\src\pages\mainpage\mainpage.html"*/,
+            selector: 'page-mainpage',template:/*ion-inline-start:"D:\Yousef2\trunk\src\pages\mainpage\mainpage.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="text-center">الصفحة الرئيسية</ion-title>\n\n\n    <button class="menuButton" end ion-button clear menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <!-- [ngClass]="language === \'en\' ?\'iconEn\':\'iconAr\'" -->\n\n  <div (click)="openSubService()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">\n\n    <h4>Service 1 test</h4>\n\n  </div>\n\n  <div (click)="openSubService()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="./assets/icon/avatar.jpg" alt="service-item">\n\n    <h4>Service 1 test</h4>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"D:\Yousef2\trunk\src\pages\mainpage\mainpage.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MainpagePage);

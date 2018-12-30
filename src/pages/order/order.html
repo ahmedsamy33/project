@@ -29,8 +29,9 @@
       <h3 class="order-head">Basic Care</h3>
       <h6 class="description">
 
-        
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,
       </h6>
 
 
@@ -44,7 +45,7 @@
     <div ion-row radio-group>
       <div col-4>
         <ion-radio value="Any" checked>
-          
+
         </ion-radio>
         <span class="span">Any</span>
       </div>
@@ -65,48 +66,53 @@
 
 
 
-  
+
   <div class="gender animated fadeInDown">
 
-    <div ion-row >
+    <div ion-row>
       <div col-6>
-          <h6 class="gender-head">Number of  Patients</h6>
-         
-        </div>
+        <h6 class="gender-head">Number of Patients</h6>
 
-        <div col-6>
-          <button class="plus-btn"  col-2 ion-button color="dark" (click)="plus()">
-
-            <ion-icon name="ios-add-outline"></ion-icon>
-          </button>
-          <span class='span' style="margin-right: 5px">{{no_patients}}</span>
-          <button  class="plus-btn" col-2  ion-button color="dark" (click)="minus()">
-
-            <ion-icon name="ios-remove-outline"></ion-icon>
-
-          </button>
-
-
-        </div>
-       
       </div>
-  
-  
+
+      <div col-6>
+        <button class="plus-btn" col-2 ion-button color="dark" (click)="plus()">
+
+          <ion-icon name="ios-add-outline"></ion-icon>
+        </button>
+        <span class='span' style="margin-right: 5px">{{no_patients}}</span>
+        <button class="plus-btn" col-2 ion-button color="dark" (click)="minus()">
+
+          <ion-icon name="ios-remove-outline"></ion-icon>
+
+        </button>
+
+
+      </div>
+
     </div>
 
+
+  </div>
+
   <div class="gender animated fadeInDown">
 
-      <h6 class="gender-head">Servicre Duration </h6>
+    <h6 class="gender-head">Servicre Duration </h6>
 
-        <div ion-row>
+    <div ion-row>
 
-          
-          <ion-range 	 col-9 style="padding: 0; margin: 0 15px; margin-right:0" [(ngModel)]="hours" color="primary" pin="true" max="10"  step="1" ></ion-range>
-          
-          <span col-2 style="margin: 0"> 
-            {{hours}} Hrs
-          </span>
-        </div>
-</div>
-  
+
+      <ion-range col-9 style="padding: 0; margin: 0 15px; margin-right:0" [(ngModel)]="hours" color="primary" pin="true"
+        max="10" step="1"></ion-range>
+
+      <span col-2 style="margin: 0">
+        {{hours}} Hrs
+      </span>
+    </div>
+  </div>
+  <div class="gender animated fadeInDown">
+    <button ion-button block round type="button" class="animated fadeInDown app-btn">
+      Continuous
+    </button>
+  </div>
 </ion-content>
