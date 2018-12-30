@@ -22,23 +22,23 @@ webpackEmptyAsyncContext.id = 108;
 
 var map = {
 	"../pages/login/login.module": [
-		267,
+		268,
 		4
 	],
 	"../pages/mainpage/mainpage.module": [
-		268,
+		269,
 		3
 	],
 	"../pages/order/order.module": [
-		269,
+		267,
 		2
 	],
 	"../pages/signup/signup.module": [
-		270,
+		271,
 		1
 	],
 	"../pages/subservice/subservice.module": [
-		271,
+		270,
 		0
 	]
 };
@@ -107,11 +107,11 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mainpage/mainpage.module#MainpagePageModule', name: 'MainpagePage', segment: 'mainpage', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/subservice/subservice.module#SubservicePageModule', name: 'SubservicePage', segment: 'subservice', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/subservice/subservice.module#SubservicePageModule', name: 'SubservicePage', segment: 'subservice', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -167,15 +167,14 @@ var MyApp = /** @class */ (function () {
     }
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\angularDemo\joen\hekmtar\src\app\app.html"*/'<ion-menu dir="rtl" id="menuId" [content]=" content" side="right">\n\n  <ion-content class="menuContent">\n\n    <ion-toolbar class="headermenu" style=" text-align: center;">\n      <img src="./../assets/imgs/logo.1.png">\n\n      <br>\n      <h5>حكيم دار </h5>\n\n    </ion-toolbar>\n\n    <ion-list>\n\n      <!--   Admin -->\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-mail"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        payment\n      </ion-item>\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-people"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Request\n      </ion-item>\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-heart-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Favourit\n      </ion-item>\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-apps"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        Language\n      </ion-item>\n\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-add-circle-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        Terms & conditions\n      </ion-item>\n\n\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="log-out"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;تسجيل\n        الخروج\n      </ion-item>\n    </ion-list>\n\n\n  </ion-content>\n\n\n</ion-menu>\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"D:\angularDemo\joen\hekmtar\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"E:\ClinicProject.git\trunk\src\app\app.html"*/'<ion-menu dir="rtl" id="menuId" [content]=" content" side="right">\n\n  <ion-content class="menuContent">\n\n    <ion-toolbar class="headermenu" style=" text-align: center;">\n      <img src="./../assets/imgs/logo.1.png">\n\n      <br>\n      <h5>حكيم دار </h5>\n\n    </ion-toolbar>\n\n    <ion-list>\n\n      <!--   Admin -->\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-mail"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        payment\n      </ion-item>\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-people"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Request\n      </ion-item>\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-heart-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp; Your Favourit\n      </ion-item>\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-apps"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        Language\n      </ion-item>\n\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="ios-add-circle-outline"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;\n\n        Terms & conditions\n      </ion-item>\n\n\n\n\n\n\n\n      <ion-item class="text-sm">\n        <ion-icon name="log-out"></ion-icon>&nbsp;&nbsp;&nbsp;&nbsp;تسجيل\n        الخروج\n      </ion-item>\n    </ion-list>\n\n\n  </ion-content>\n\n\n</ion-menu>\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"E:\ClinicProject.git\trunk\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map

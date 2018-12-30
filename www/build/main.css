@@ -16743,12 +16743,12 @@ ion-range ion-icon {
 }
 
 .range-ios .range-knob {
-  left: 7px;
-  top: 7px;
+  left: 6px;
+  top: 6px;
   border-radius: 50%;
   position: absolute;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   background: #fff;
   -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.02);
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.13), 0 0 0 1px rgba(0, 0, 0, 0.02);
@@ -16879,13 +16879,13 @@ ion-range ion-icon {
 }
 
 .range-md .range-knob {
-  left: 12px;
-  top: 13px;
+  left: 6px;
+  top: 7px;
   border-radius: 50%;
   position: absolute;
   z-index: 2;
-  width: 18px;
-  height: 18px;
+  width: 30px;
+  height: 30px;
   background: #488aff;
   -webkit-transform: scale(0.67);
   transform: scale(0.67);
@@ -27306,21 +27306,48 @@ page-order .item1 {
   margin-bottom: 10px;
 }
 
-page-order .item1 .main-Info {
+page-order .item1 .main-Info, page-order .item1 .gender {
   text-align: center;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
 
-page-order .item1 .main-Info img {
+page-order .item1 .main-Info img, page-order .item1 .gender img {
   width: 80px;
 }
 
-page-order .item1 .main-Info .order-head {
+page-order .item1 .main-Info .order-head, page-order .item1 .gender .order-head {
   color: #e8623a;
 }
 
+page-order .item1 .description {
+  line-height: 1.8;
+}
+
+page-order .gender {
+  margin: 0px 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+page-order .gender .span {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+page-order .gender .gender-head {
+  text-align: left;
+  padding-left: 10px;
+}
+
 page-order .toolbar-title-md {
+  text-align: center;
+}
+
+page-order .plus-btn {
+  padding: 0 20px;
   text-align: center;
 }
 

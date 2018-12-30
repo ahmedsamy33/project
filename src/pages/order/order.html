@@ -27,20 +27,37 @@
       <img class="img-service" src="assets/icon/avatar.jpg" alt="order-item">
 
       <h3 class="order-head">Basic Care</h3>
-      <p class="description">
+      <h6 class="description">
 
-      </p>
+        
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </h6>
 
 
 
     </div>
   </div>
 
-  <div class="service-item animated fadeInDown">
+  <div class="gender animated fadeInDown">
 
-    <img class="img-service" src="assets/icon/avatar.jpg" alt="service-item">
+    <h6 class="gender-head">Nurse Gender</h6>
+    <div ion-row radio-group>
+      <div col-4>
+        <ion-radio value="Any" checked>
+          
+        </ion-radio>
+        <span class="span">Any</span>
+      </div>
+      <div col-4>
+        <ion-radio value="male"></ion-radio>
+        <span class="span">Male</span>
+      </div>
+      <div col-4>
+        <ion-radio value="female"></ion-radio>
+        <span class="span">Female</span>
+      </div>
+    </div>
 
-    <h4>Service 1 test</h4>
 
   </div>
 
@@ -48,4 +65,48 @@
 
 
 
+  
+  <div class="gender animated fadeInDown">
+
+    <div ion-row >
+      <div col-6>
+          <h6 class="gender-head">Number of  Patients</h6>
+         
+        </div>
+
+        <div col-6>
+          <button class="plus-btn"  col-2 ion-button color="dark" (click)="plus()">
+
+            <ion-icon name="ios-add-outline"></ion-icon>
+          </button>
+          <span class='span' style="margin-right: 5px">{{no_patients}}</span>
+          <button  class="plus-btn" col-2  ion-button color="dark" (click)="minus()">
+
+            <ion-icon name="ios-remove-outline"></ion-icon>
+
+          </button>
+
+
+        </div>
+       
+      </div>
+  
+  
+    </div>
+
+  <div class="gender animated fadeInDown">
+
+      <h6 class="gender-head">Servicre Duration </h6>
+
+        <div ion-row>
+
+          
+          <ion-range 	 col-9 style="padding: 0; margin: 0 15px; margin-right:0" [(ngModel)]="hours" color="primary" pin="true" max="10"  step="1" ></ion-range>
+          
+          <span col-2 style="margin: 0"> 
+            {{hours}} Hrs
+          </span>
+        </div>
+</div>
+  
 </ion-content>

@@ -15,6 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class OrderPage {
 
+  hours = 1; 
+  no_patients = 0;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
@@ -22,4 +25,19 @@ export class OrderPage {
     console.log('ionViewDidLoad OrderPage');
   }
 
+
+  plus(){
+    console.log(this.no_patients , 'sssssssss');
+    
+    this.no_patients++;
+  }
+
+  minus(){
+    if (this.no_patients == 0) {
+      this.no_patients  = 0
+    }
+    else{
+      this.no_patients--;
+    }
+  }
 }

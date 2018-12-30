@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 271:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SubservicePageModule", function() { return SubservicePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__subservice__ = __webpack_require__(276);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__subservice__ = __webpack_require__(275);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var SubservicePageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 276:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,12 +75,11 @@ var SubservicePage = /** @class */ (function () {
     };
     SubservicePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-subservice',template:/*ion-inline-start:"D:\angularDemo\joen\hekmtar\src\pages\subservice\subservice.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="text-center"> sub service</ion-title>\n\n\n\n\n\n    <button class="menuButton" end ion-button clear menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <!-- <button [ngClass]="language === \'en\' ?\'left\':\'right\'" (click)="back()" class="backButton" ion-button clear>\n      <ion-icon  *ngIf="language == \'ar\'"  ios="ios-arrow-back" md="md-arrow-back">\n\n      </ion-icon>\n\n\n      <ion-icon   *ngIf="language == \'en\'" ios="ios-arrow-back" md="md-arrow-back">\n\n        </ion-icon>\n\n    </button> -->\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <!-- [ngClass]="language === \'en\' ?\'iconEn\':\'iconAr\'" -->\n\n  <div (click)="openOrder()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="assets/icon/avatar.jpg" alt="sub service-item">\n\n    <h4>Sub Service 1 test</h4>\n\n  </div>\n\n\n  <div (click)="openOrder()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="assets/icon/avatar.jpg" alt="sub service-item">\n\n    <h4>Sub Service 1 test</h4>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"D:\angularDemo\joen\hekmtar\src\pages\subservice\subservice.html"*/,
+            selector: 'page-subservice',template:/*ion-inline-start:"E:\ClinicProject.git\trunk\src\pages\subservice\subservice.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title class="text-center"> sub service</ion-title>\n\n\n\n\n\n    <button class="menuButton" end ion-button clear menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <!-- <button [ngClass]="language === \'en\' ?\'left\':\'right\'" (click)="back()" class="backButton" ion-button clear>\n      <ion-icon  *ngIf="language == \'ar\'"  ios="ios-arrow-back" md="md-arrow-back">\n\n      </ion-icon>\n\n\n      <ion-icon   *ngIf="language == \'en\'" ios="ios-arrow-back" md="md-arrow-back">\n\n        </ion-icon>\n\n    </button> -->\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <!-- [ngClass]="language === \'en\' ?\'iconEn\':\'iconAr\'" -->\n\n  <div (click)="openOrder()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="assets/icon/avatar.jpg" alt="sub service-item">\n\n    <h4>Sub Service 1 test</h4>\n\n  </div>\n\n\n  <div (click)="openOrder()" class="service-item animated fadeInDown">\n\n    <img class="img-service" src="assets/icon/avatar.jpg" alt="sub service-item">\n\n    <h4>Sub Service 1 test</h4>\n\n  </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"E:\ClinicProject.git\trunk\src\pages\subservice\subservice.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], SubservicePage);
     return SubservicePage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=subservice.js.map
