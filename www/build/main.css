@@ -27232,6 +27232,11 @@ page-login signup-page .ios .account-type-content .input-wrapper {
   margin-bottom: 30px !important;
 }
 
+.last-item {
+  padding-left: 0;
+  text-align: center !important;
+}
+
 page-mainpage .toolbar-title-md {
   text-align: center;
 }
