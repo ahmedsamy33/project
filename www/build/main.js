@@ -34,11 +34,11 @@ var map = {
 		2
 	],
 	"../pages/signup/signup.module": [
-		271,
+		270,
 		1
 	],
 	"../pages/subservice/subservice.module": [
-		270,
+		271,
 		0
 	]
 };
@@ -110,8 +110,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mainpage/mainpage.module#MainpagePageModule', name: 'MainpagePage', segment: 'mainpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/subservice/subservice.module#SubservicePageModule', name: 'SubservicePage', segment: 'subservice', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/subservice/subservice.module#SubservicePageModule', name: 'SubservicePage', segment: 'subservice', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
